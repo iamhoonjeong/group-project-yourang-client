@@ -1,0 +1,32 @@
+*,
+*:after,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, 'Noto Sans KR', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#root {
+  height: 100%;
+}
